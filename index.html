@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Downloader</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="icon">
+                <h2>Vedtechz</h2>
+            </div>
+        </div>
+    </header>
+    <h1>YouTube Video Downloader</h1>
+    <div id="initialInput">
+        <input type="text" id="videoUrl" placeholder="Paste Your URL..." name="videoUrl" required>
+        <button id="fetchQualities">→</button>
+    </div>
+    <div id="qualitySelection" style="display: none;">
+        <h2>Select Video Quality</h2>
+        <div id="qualityOptions"></div>
+    </div>
+    <div id="progress" style="display:none;">Downloading...</div>
+    <div id="downloadMore" style="display:none;">
+        <button id="downloadMoreButton">Download More Videos</button>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>

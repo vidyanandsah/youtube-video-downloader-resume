@@ -1,0 +1,100 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    /* padding: 20px; Add padding for better spacing */
+}
+
+/* Styling for the input container */
+#initialInput, #qualitySelection, #downloadMore {
+    max-width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling the input field */
+input[type="text"] {
+    width: calc(100% - 22px); /* Adjust for padding and border */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Styling the button */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Navbar styling */
+.navbar {
+    background: #191023;
+    padding: 14px 18px; /* Unified padding */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+    border: 0.738px solid rgba(240, 150, 255, 0.2);
+    z-index: 2;
+}
+
+.icon {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 4%;
+    color: #333;
+}
+
+/* Progress and quality selection styling */
+#progress {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quality-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.quality-option span {
+    font-size: 16px;
+}
+
+.quality-option button {
+    width: auto;
+    padding: 5px 10px;
+}
